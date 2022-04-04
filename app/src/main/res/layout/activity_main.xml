@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e73b4b"
+    android:background="#483D8B"
     android:orientation="vertical"
     android:paddingLeft="30dp"
     android:paddingRight="30dp"
@@ -16,65 +16,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="70dp"
-        android:fontFamily="sans-serif-black"
-        android:text="WHAT'S HERE"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-        />
-
-    <EditText
-        android:layout_marginTop="80dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#ababab"
-        android:text="  Email Adress"
-        android:textColor="#ccc"
-        android:textSize="20sp"
-        />
-
-    <EditText
         android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome Back"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        />
+
+    <EditText
+        android:layout_width="243dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#ababab"
-        android:text="  Password"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna"
         android:textColor="#ccc"
-        android:textSize="20sp"/>
+        android:textSize="13sp" />
+
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Login"
-        android:backgroundTint="#952531"
+        android:text="Sign In"
+        android:backgroundTint="#FF8C00"
         />
 
-    <TextView
-        android:id="@+id/textview_id"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:text="Forget password?"
-        android:textColor="#ccc"
-        android:textSize="16sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="19dp"
-        android:text="------------------ or -----------------"
-        android:textColor="#ccc"
-        android:textSize="16sp" />
+        android:layout_marginTop="20dp"
+        android:text="Sign up"
+        android:backgroundTint="#FF8C00"
+        />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="19dp"
-        android:text="Sign up"
+        android:text="Sign in with Social Media"
         android:textColor="#ccc"
         android:textSize="16sp"
         />
