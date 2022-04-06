@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#483D8B"
+    android:background="#6468e6"
     android:orientation="vertical"
     android:paddingLeft="30dp"
     android:paddingRight="30dp"
@@ -29,6 +29,30 @@
         android:layout_gravity="center"
         android:layout_marginTop="19dp"
         android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna"
+        android:textColor="#ccc"
+        android:textSize="13sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="COMPANY NAME"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:text="SOLOGAN HERE"
         android:textColor="#ccc"
         android:textSize="13sp" />
 
@@ -58,5 +82,27 @@
         android:textColor="#ccc"
         android:textSize="16sp"
         />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+
+       <ImageView
+           android:layout_width="45dp"
+           android:layout_height="wrap_content"
+           android:src="@drawable/facebook1" />
+
+       <ImageView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter"/>
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linkedin"/>
+   </linearLayout>
+
+
 
 </LinearLayout>
